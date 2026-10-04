@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up - AltSchool Africa</title>
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home (Assignment 1)</a></li>
+        <li><a href="form.html" aria-current="page">Sign up Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <aside aria-label="About AltSchool">
+      <p><strong>Alt School</strong></p>
+      <h2>Africa's Best Innovative Online School</h2>
+      <p>Our programmes are designed to adapt to your time, goals, and resources, empowering you to learn on your own terms.</p>
+      <p>Accredited by ASIC (Accreditation Service for International Schools, Colleges, and Universities)</p>
+    </aside>
+
+    <section aria-labelledby="signup-heading">
+
+      <nav aria-label="Account options">
+        <ul>
+          <li><a href="form.html" aria-current="page">Sign up</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+      </nav>
+
+      <h1 id="signup-heading">Sign up</h1>
+      <p>Create an account to get started on your learning journey</p>
+
+      <p role="note"><strong>Important:</strong> Your name will appear on your certificate exactly as entered</p>
+
+      <form action="#" method="post">
+
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" placeholder="john.doe@example.com" autocomplete="email" required>
+        </p>
+
+        <p>
+          <label for="firstname">First name</label><br>
+          <input type="text" id="firstname" name="firstname" placeholder="John" autocomplete="given-name" required>
+        </p>
+
+        <p>
+          <label for="lastname">Last name</label><br>
+          <input type="text" id="lastname" name="lastname" placeholder="Doe" autocomplete="family-name" required>
+        </p>
+
+        <p>
+          <label for="phone">Phone number</label><br>
+          <input type="tel" id="phone" name="phone" placeholder="+1234567890" autocomplete="tel" required>
+        </p>
+
+        <p>
+          <label for="password">Password</label><br>
+          <input type="password" id="password" name="password" placeholder="********" autocomplete="new-password" minlength="8" required>
+        </p>
+
+        <p>
+          By clicking Create account, I agree to
+          <a href="#">Terms of Use</a> and acknowledge that I have read the
+          <a href="#">Privacy Policy</a>.
+        </p>
+
+        <p>
+          <button type="submit">Create account &rarr;</button>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <address>
+      Waheed<br>
+      [Your street address], [City], [State], Nigeria
+    </address>
+    <p>&copy; 2026 Waheed. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
