@@ -2,62 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Waheed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waheed Oladunjoye | AltSchool Africa, School of Engineering</title>
+  <meta name="description" content="Personal profile of Waheed Oladunjoye, a School of Engineering student at AltSchool Africa.">
 </head>
 <body>
+  <p><a href="#main">Skip to main content</a></p>
 
-  <header>
-    <nav aria-label="Main navigation">
+  <header id="top">
+    <h1>Waheed Oladunjoye</h1>
+    <p>Student, School of Engineering, AltSchool Africa. Moving from technical support in fintech to building the software behind it.</p>
+
+    <nav aria-label="Page sections">
       <ul>
-        <li><a href="index.html" aria-current="page">Home (Assignment 1)</a></li>
-        <li><a href="form.html">Sign up Form</a></li>
+        <li><a href="#basic-info">Basic information</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#why-i-joined">Why I joined</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="form.html">Form page</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <h1>Hi, I'm Waheed</h1>
+  <hr>
 
-    <section aria-labelledby="about-heading">
-      <h2 id="about-heading">About Me</h2>
-      <p>
-        I hold a Master's degree in Chemistry and I currently work in technical support.
-        I am now learning web development with the goal of becoming a full-stack developer.
-      </p>
+  <main id="main">
+    <section id="basic-info" aria-labelledby="basic-info-heading">
+      <h2 id="basic-info-heading">Basic information</h2>
+      <dl>
+        <dt>Name</dt>
+        <dd>Waheed Oladunjoye</dd>
+        <dt>Learner ID</dt>
+        <dd>ALT/SOE/KAR/026/0887</dd>
+        <dt>School</dt>
+        <dd>School of Engineering, AltSchool Africa</dd>
+        <dt>Current work</dt>
+        <dd>Technical support and operations, banking and fintech</dd>
+        <dt>Education</dt>
+        <dd>M.Sc. Chemistry (University of Ibadan), B.Sc. Chemistry (University of Ilorin)</dd>
+      </dl>
     </section>
 
-    <section aria-labelledby="learning-heading">
-      <h2 id="learning-heading">What I Am Learning</h2>
-      <ul>
-        <li>HTML, for the structure of web pages</li>
-        <li>CSS, for styling</li>
-        <li>JavaScript, for making pages interactive</li>
-      </ul>
+    <section id="biography" aria-labelledby="biography-heading">
+      <h2 id="biography-heading">Biography</h2>
+      <p>I trained as a chemist. I hold a B.Sc. from the University of Ilorin and an M.Sc. from the University of Ibadan, and the lab taught me to work methodically and to trust evidence over guesses.</p>
+      <p>I now work in technical support and operations in a banking and fintech environment. My days involve payment switching, third-party bank API integrations, debugging SQL, troubleshooting applications, and helping plan server migrations. I work with Docker, within the limits of my server access.</p>
+      <p>Outside my job, I am building AGROGLOBAL VENTURES, an export business that sources palm oil and honey for retail and bulk buyers abroad. I also handle administrative and communications work for a community organisation.</p>
     </section>
 
-    <section aria-labelledby="goals-heading">
-      <h2 id="goals-heading">My Goals</h2>
-      <ol>
-        <li>Build and publish my own websites</li>
-        <li>Understand both frontend and backend development</li>
-        <li>Move into a full-stack developer role</li>
-      </ol>
+    <section id="why-i-joined" aria-labelledby="why-heading">
+      <h2 id="why-heading">Why I joined the program</h2>
+      <p>Every day I see how much depends on software working correctly, and I am usually the person who finds out when it does not. I want to be the one who builds it, not only the one who reports the fault.</p>
+      <p>I know the basics of Java, Python and C#, up to control statements, but I have not yet built a real project. I needed structure, deadlines, and people to learn alongside. I also need a program that fits around a full-time job, and AltSchool does.</p>
     </section>
 
-    <section aria-labelledby="next-heading">
-      <h2 id="next-heading">Next Step</h2>
-      <p>Ready to join? Go to the <a href="form.html">sign up form</a>.</p>
+    <section id="goals" aria-labelledby="goals-heading">
+      <h2 id="goals-heading">My goals for the School of Engineering</h2>
+      <p>I am aiming to become a full-stack developer. Open each stage below to see how I plan to get there.</p>
+
+      <details open>
+        <summary>During the program</summary>
+        <p>Build a solid base in HTML, CSS, JavaScript and a back-end language. Finish every assignment on time and ship real projects, starting with this page.</p>
+      </details>
+
+      <details>
+        <summary>After the program</summary>
+        <p>Put together a portfolio of full-stack projects, including tools that apply to payments and support work, and start taking on software tasks at my current job.</p>
+      </details>
+
+      <details>
+        <summary>Long term</summary>
+        <p>Work as a software engineer, ideally in fintech, and use my skills to build the technology behind AGROGLOBAL VENTURES.</p>
+      </details>
     </section>
   </main>
 
-  <footer>
-    <address>
-      Waheed<br>
-      [Your street address], [City], [State], Nigeria
-    </address>
-    <p>&copy; 2026 Waheed. All rights reserved.</p>
-  </footer>
+  <hr>
 
+  <footer>
+    <p><a href="form.html">Go to the form page</a></p>
+    <p><a href="#top">Back to top</a></p>
+    <p>Built for the AltSchool Africa School of Engineering assignment.</p>
+  </footer>
 </body>
 </html>
